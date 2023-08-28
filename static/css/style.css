@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+#dice-results {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#total-score {
+  font-size: 16px;
+}
