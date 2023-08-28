@@ -16,6 +16,7 @@ const rollDice = () => {
 
   document.getElementById('dice-results').innerHTML = diceResults;
   document.getElementById('total-score').innerHTML = currentScore;
+  document.getElementById('score').innerHTML = score;
 
   if (currentScore >= 10000) {
     alert('Congratulations! You won the game!');
@@ -66,8 +67,9 @@ const calculateScore = (diceRoll) => {
   ) {
     score += 1500;
   }
-
+  
   return score;
+  
 };
 
 
